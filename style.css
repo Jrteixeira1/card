@@ -71,7 +71,7 @@ body {
 
 .apresentacao__links__caixa {
     gap: 16px;
-    width: 250px;
+    width: 220px;
     border-radius: 8px;
     border: 2px solid var(--cor-terciaria);
     padding: 22px;
@@ -88,4 +88,10 @@ body {
     font-family: var(--fonte-secundaria);
     text-decoration: none;
     flex-wrap: nowrap;
+}
+
+.apresentacao__links__caixa:hover {
+    background: #22D4FD;
+    width: auto;
+    color: var(--cor-hover);
 }
