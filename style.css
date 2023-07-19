@@ -8,6 +8,7 @@
     --cor-secundaria: #F6F6F6;
     --cor-terciaria: #22D4FD;
     --cor-hover: #272727;
+    --cor-ativo: #FF9612;
     
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -94,4 +95,8 @@ body {
     background: #22D4FD;
     width: auto;
     color: var(--cor-hover);
+}
+
+.apresentacao__links__caixa:active {
+    background: var(--cor-ativo);
 }
