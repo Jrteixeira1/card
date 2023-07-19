@@ -100,3 +100,17 @@ body {
 .apresentacao__links__caixa:active {
     background: var(--cor-ativo);
 }
+
+@media (min-width: 1080px) {
+    .wrapper {
+        width: 100vh;
+        margin-top: 100px; 
+    }
+
+    .apresentacao__links__caixa{
+    width: 100%;
+    }
+    .img-user {
+        width: 250px;
+    }
+}
