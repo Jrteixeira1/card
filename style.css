@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Krona +One &família= Montserrat:wght@600 & display=swap');
+
+:root {
+    --cor-principal:#fff;
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+    --cor-hover: #272727;
+    
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./img/background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 90%;
+    background: transparent 50%;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: var(--cor-principal);
+    border-radius: 10px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.wrapper h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: var(--fonte-primaria)
+    color var(--cor-principal);
+}
+.wrapper p {
+    font-size: 15px;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+}
+.img-user {
+    border-radius: 55%;
+    width: 150px;
+    margin: 10px 20px 0 55px;
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.apresentacao__links__caixa {
+    gap: 16px;
+    width: 250px;
+    border-radius: 8px;
+    border: 2px solid var(--cor-terciaria);
+    padding: 22px;
+}
+
+.apresentacao__links__navegacao {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color: var(--cor-secundaria);
+    font-weight: 600;
+    font-family: var(--fonte-secundaria);
+    text-decoration: none;
+    flex-wrap: nowrap;
+}
